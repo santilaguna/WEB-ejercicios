@@ -1,0 +1,68 @@
+body {
+  margin: 40px;
+}
+
+.inputText{ background-color: ivory;
+            color:darkgreen;
+            position:relative;
+            outline: none;
+            border: 2px solid gray;
+            height: 53px;
+            width: 350px;
+            padding-left:10px;
+            font-family: sans-serif;
+          }
+
+.contenedor {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 100px 100px 100px;
+        background-color: #fff;
+        color: #444;
+    }
+.contenedor1 {
+        max-width: 300px;
+        max-height: 100px;
+}
+.contenedor1 img {
+        height: 80px;
+        width: auto;
+        object-fit: cover;
+    }
+
+
+   .marco {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+    }
+
+
+.uno {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+    .dos {
+        grid-column: 2 ;
+        grid-row: 1;
+    }
+    .tres {
+        grid-column: 2 ;
+        grid-row: 2 ;
+    }
+    .cuatro {
+        grid-column: 3 ;
+        grid-row: 1 / span 2;
+    }
+    .cinco {
+        grid-column: 1 / span 3 ;
+        grid-row: 3;
+
+    }
+
+/* jQuery */
+.blue {
+        background-color: blue;
+}
